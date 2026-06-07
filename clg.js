@@ -1,0 +1,7 @@
+function addItem() {
+    let li = document.createElement("li");
+
+    li.textContent = "New Item";
+
+    document.getElementById("list").appendChild(li);
+}
